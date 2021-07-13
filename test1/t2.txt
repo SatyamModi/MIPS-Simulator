@@ -1,0 +1,6 @@
+addi $t0, $t0, 960
+addi $t1, $t1, 100
+sw $t0, 4000($zero)
+sw $t0, 4400($zero)
+lw $t2, 6800($zero)
+lw $t3, 4800($zero)
